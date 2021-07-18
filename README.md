@@ -1,2 +1,2 @@
 # IAC-SLAM
-This repo consists of all the relevant files that I generated/coded for the Indy Autonomous Challenge 
+A repo that contains the all the files that I developed for the Indy Autonomous challenge
