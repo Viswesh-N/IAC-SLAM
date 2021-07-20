@@ -1,0 +1,2 @@
+position_std_deviation: 0.04 #in meters
+orientation_std_deviation: 5.00 #in degrees

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="IndySLAM" type="IndySLAM" name="IndyOdom" output="screen">
+    <rosparam file="$(dirname)/../config/parameters.yaml" command="load"/>
+  </node>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(dirname)/../rviz/indy_odom.rviz"/>
+
+</launch>

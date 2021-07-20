@@ -1,0 +1,17 @@
+<package format="2">
+  <name>INDY-Slam</name>
+  <version>0.0.1</version>
+  <description>
+  Indy SLAM Tasks
+  </description>
+  <maintainer email="void@void.com">PR-void</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+</package>
