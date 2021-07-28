@@ -4,6 +4,8 @@
   <node pkg="IndySLAM" type="IndySLAM" name="IndyOdom" output="screen">
     <rosparam file="$(dirname)/../config/parameters.yaml" command="load"/>
   </node>
+  <node pkg="IndySLAM" type="icp" name="icp" output="screen"/>
+  <node pkg="IndySLAM" type="tf_pub" name="tf_pub" output="screen"/>
 <node name="rviz" pkg="rviz" type="rviz" args="-d $(dirname)/../rviz/indy_odom.rviz"/>
 
 </launch>

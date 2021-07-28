@@ -37,14 +37,6 @@ void indyOdom::gaussian_noise(const nav_msgs::Odometry::ConstPtr& msg)										
 	noisy_data.pose.pose.orientation.y += angular_distribution(generator);
 	noisy_data.pose.pose.orientation.z += angular_distribution(generator);
 
-	// noisy_odom_data_.twist.twist.linear.x += linear_distribution(generator);
-	// noisy_odom_data_.twist.twist.linear.y += linear_distribution(generator);
-	// noisy_odom_data_.twist.twist.linear.z += linear_distribution(generator);
-
-	// noisy_odom_data_.twist.twist.angular.x += angular_distribution(generator);
-	// noisy_odom_data_.twist.twist.angular.y += angular_distribution(generator);
-	// noisy_odom_data_.twist.twist.angular.z += angular_distribution(generator);
-
 	ROS_INFO("Data Succesfully Added");																						//printing 
 }
 
