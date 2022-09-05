@@ -1,4 +1,4 @@
-# Indy_LIME
+# Indy Autonomous Challenge 2021 
 Implemented GPS Assisted Localization of high velocity autonomous car using LiDAR sensor.
 
 ## Construction of Map
