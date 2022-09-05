@@ -2,7 +2,7 @@
 Implemented GPS Assisted Localization of high velocity autonomous car using LiDAR sensor.
 
 ## Construction of Map
-To perform localization in mapped enviroment first we need to create the map which is done using the merged map node.
+To perform localization in mapped enviroment first we need to create the map which is done using the map generator package.
 
 <p float="left">
   <img src="images/globalmap.png" alt="global" width="600"/>
